@@ -57,9 +57,33 @@ body{
 }
 .menu-icon-bar{
     height: 6vh;
+    background-color: rgb(212, 204, 204);
+    display: flex;
+    align-items: center;
+    
+    
+    
 
 }
 
+.material-icons.menu-icons{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu-icons:hover{
+    background-color: rgb(163, 160, 160);
+    cursor: pointer;
+}
+
+.font-family-selector{
+    font-size: 18px;
+    width: 150px;
+}
 
 .formula-bar{
     height: 5vh;
