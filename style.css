@@ -84,6 +84,10 @@ body{
     font-size: 18px;
     width: 150px;
 }
+.font-size-selector{
+    font-size: 18px;
+    
+}
 
 .formula-bar{
     height: 5vh;
@@ -102,6 +106,54 @@ body{
 
 .sheet-bar{
     height: 4vh;
+    display: flex;
+    align-items: center;
 
 }
+.scroller{
 
+width: 70px;
+}
+.icon-left-scroll,.icon-right-scroll{
+    font-size: 30px;
+}
+.icon-left-scroll:hover,.icon-right-scroll:hover{
+    
+    background-color: lightgray;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.icon-add{
+    color: #107c41;
+    width: 40px;
+    
+}
+
+.icon-add:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+
+
+.sheet-tab-container{
+    border: 1px solid lightgray;
+    width: calc(100vw - 110px);
+    
+}
+.sheet-tab{
+    border-bottom: 4px solid #107c41;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    font-weight: 600;
+    border-right: 1px solid lightgray;  
+}
+
+.sheet-tab:hover{
+    cursor: default;
+}
